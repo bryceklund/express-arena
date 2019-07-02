@@ -5,7 +5,7 @@ const morgan = require('morgan');
 app.use(morgan('dev'));
 app.get('/allen', (req, res) => {
     console.log('allen endpoint accessed');
-    res.send('<h1 style="color:pink;font-size:100px;">fuck allen allen sucks</h1>');
+    res.send('<h1 style="color:pink;font-size:100px;">poop allen allen sucks</h1>');
 });
 
 app.get('/burgers', (req, res) => {
